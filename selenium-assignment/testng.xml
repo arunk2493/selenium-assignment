@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Sample Test" verbose="1">
+    <test name="shouldAnswerWithTrue">
+        <classes>
+            <class name="com.selenium.assignment.AppTest" />
+        </classes>
+    </test>
+</suite>

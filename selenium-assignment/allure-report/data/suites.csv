@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Oct 18 01:13:07 IST 2022","Tue Oct 18 01:13:07 IST 2022","12","Sample Test","shouldAnswerWithTrue","com.selenium.assignment.AppTest","com.selenium.assignment.AppTest","shouldAnswerWithTrue","shouldAnswerWithTrue",""
