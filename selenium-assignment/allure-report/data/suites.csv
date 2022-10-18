@@ -1,2 +1,2 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Tue Oct 18 01:13:07 IST 2022","Tue Oct 18 01:13:07 IST 2022","12","Sample Test","shouldAnswerWithTrue","com.selenium.assignment.AppTest","com.selenium.assignment.AppTest","shouldAnswerWithTrue","shouldAnswerWithTrue",""
+"passed","Wed Oct 19 00:59:23 IST 2022","Wed Oct 19 00:59:48 IST 2022","24337","Default Suite","TestNGTest-7ebc249b-cc49-4f5c-b8a1-ca82fa0f65f4","com.selenium.assignment.AssessmentTest","com.selenium.assignment.AssessmentTest","AssessmentAmazon","AssessmentAmazon","Assessment for Amazon"
