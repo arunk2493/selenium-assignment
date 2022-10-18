@@ -14,14 +14,13 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 
 public class TestBase {
     protected static WebDriver driver;
     protected Properties propertyConfig;
     public static final Logger LOGGER = Logger.getLogger(TestBase.class.getName());
-    public static final String remote_url_chrome = "http://localhost:4446/wd/hub";
+    public static final String remote_url_chrome = "http://localhost:4447/wd/hub";
 
     @BeforeTest
     public void readConfigs() throws IOException{

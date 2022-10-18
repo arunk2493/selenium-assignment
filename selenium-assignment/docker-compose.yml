@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+    chrome:
+        image: selenium/standalone-chrome:latest
+        hostname: chrome
+        ports:
+          - "4447:4444"
+        privileged: true
+        shm_size: 2g
+    framework:
+        build: .
+        depends_on: 
+            - chrome
