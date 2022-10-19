@@ -46,3 +46,15 @@ How to run Tests?
 Run the below command: mvn test
 
 Generate Report: allure serve
+
+CHECK LIST:
+- The test should run and pass in the chrome browser - DONE
+- Platform independent. (It should run on Windows, Mac, or Linux) - DONE. with Docker compose
+- Better page layer management. - DONE
+- Helper methods for page interactions like click, sendkeys. - DONE
+- Readable and clean code. - DONE
+- Clear instructions about the framework and how to execute it in the readme file. - DONE
+- Commits history to see how you have approached the problem. - DONE
+- Follow sound design principles. - PARTIALLY DONE - ALIGNMENT & PROXIMITY
+
+
