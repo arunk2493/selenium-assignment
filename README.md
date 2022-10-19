@@ -21,8 +21,17 @@ tes/java/com/selenium/assignment:
     1. AssesmentTest - test class file which call the actions from the page class
     
     Used testng annonation priority for running the tests
+
 config.properties: Property file to maintain the test config data
-docker-compose.yml: Draft docker compose file to have standalone chrome to run via docker.
+
+docker-compose.yml: Docker compose file to have standalone chrome to run via docker.
+    
+    In Config.Properties file change browser name to "remote"
+    
+    Run docker-compose up -d command before running the test
+    
+    Now run the test with below command
+    
 
 How to run Tests?
 
