@@ -1,1 +1,0 @@
-{"uuid":"c80c16fb-9950-4237-982c-967ef353e45c","name":"com.selenium.assignment.AssessmentTest","children":["3d5c48b0-b30c-4c30-9655-e8d66d8943e9"],"befores":[{"name":"initiateDriver","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1666121477689,"stop":1666121483570}],"afters":[],"start":1666121477662,"stop":1666121496040}

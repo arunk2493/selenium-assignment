@@ -12,12 +12,11 @@ public class AssessmentTest extends TestBase {
     AmazonPage amazonPage;
     @Test(priority = 1)
     @Description("Assessment for Amazon")
-    public void AssessmentAmazon(){
+    public void AssessmentAmazon() {
         amazonPage = new AmazonPage(driver);
         amazonPage.clickHamBurgerMenuItem();
         amazonPage.clickCategoryItem();
         amazonPage.clickTelevisionMenu();
-        amazonPage.scrollElementIntoView(amazonPage.txtBrand);
         amazonPage.filterSpecificBrand("Samsung");
         amazonPage.sortBy();
         amazonPage.clickSecondItem();
