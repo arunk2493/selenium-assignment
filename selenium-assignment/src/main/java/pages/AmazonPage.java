@@ -62,6 +62,7 @@ WebDriver driver;
    }
    @Step("Choose from Category")
    public void clickCategoryItem() {
+    scrollElementIntoView(elemShopByCategory);
     this.elemShopByCategory.click();
     waitForElement(elemTelevision);
    }
