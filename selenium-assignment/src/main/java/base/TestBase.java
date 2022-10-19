@@ -51,6 +51,7 @@ public class TestBase {
             driver.get("https://www.amazon.in/");
         }else if(browserName.equalsIgnoreCase("remote")){
             ChromeOptions options = new ChromeOptions();
+            //options.addArguments("--headless");
             driver = new RemoteWebDriver(new URL(remote_url_chrome),options);
             driver.get("https://www.amazon.in/");
         }else{
